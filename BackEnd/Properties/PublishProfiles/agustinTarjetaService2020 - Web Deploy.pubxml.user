@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK3Dg8zJsGUWWmCJLm8tVwQAAAAACAAAAAAAQZgAAAAEAACAAAADqazp/omOzRBJkrkGa7fAfqoYfTG7elVCdTqhBofIV2QAAAAAOgAAAAAIAACAAAAD8ck153RCKbO3BccpZ7IDYBQ1gGod7oCWtaIRs6exsH4AAAAAwyT9V463GcJm9voesgXxvXbKgDDHyjWYce/wKoRyUHy886GQzkCkvLJl1CzKmT7Wg1LgvaoJTQtMeM9wzhoKtBovpKbCor8NH4k7IVSOkQfS8l/y81qcFNcPoUgk6FtNDx+3L9PahXUWriN+RMgx/kUWkMr5IkYQNTrnmh2xvNkAAAACEZVnFfEohkfCHCoAzcL6yekn3P6jSK3srvMQ0hZgQXIAIg47TuX6nTWG2ISV2gox0U8e79hzPYwIId58dO2jW</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DevConnection">
+      <Value>Data Source=tcp:agustinservidortarjeta2020.database.windows.net,1433%3bInitial Catalog=BackEnd_db%3bUser Id=agustin%40agustinservidortarjeta2020%3bPassword=Agustin36867</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
